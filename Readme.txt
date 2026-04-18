@@ -50,6 +50,14 @@ Azure Subscription
 - NGINX Web Server
 
 ---
+## 📸 Screenshots
+
+### 🔹 Terraform Apply Output
+![Terraform Output](terraform-output.png)
+
+### 🔹 Azure Resources
+![Azure Resources](azure-resources.png)
+
 
 ## 🚀 How to Run
 
@@ -58,11 +66,4 @@ terraform init
 terraform plan
 terraform apply
 
-## 📸 Screenshots
-
-### 🔹 Terraform Apply Output
-![Terraform Output](terraform-output.png)
-
-### 🔹 Azure Resources
-![Azure Resources](azure-resources.png)
 
