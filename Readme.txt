@@ -1,6 +1,15 @@
-~🏗️ Final Architecture (High Level)
+# 🚀 Azure Terraform Web App
 
-~ We will automatically create this in Azure using  Terraform:
+## 📌 Project Overview
+This project demonstrates how to deploy a complete web server infrastructure on Microsoft Azure using Terraform.
+
+All resources are provisioned using Infrastructure as Code (IaC), without any manual setup.
+
+---
+
+## 🏗️ Architecture
+
+# We will automatically create this in Azure using  Terraform:
 
 Azure Subscription
 │
@@ -20,30 +29,30 @@ Azure Subscription
 │   └── NGINX Web Server
 │
 └── Terraform State (local)
-
-
 ~ Everything is created by code, not manually.
-
-# Azure Terraform Web App 🚀
-
-## 📌 Project Overview
-This project deploys a web server on Microsoft Azure using Terraform.
 
 ## 🧰 Technologies Used
 - Terraform
 - Microsoft Azure
-- Linux VM
+- Linux (Ubuntu)
+- NGINX Web Server
+
+---
 
 ## ⚙️ Resources Created
 - Resource Group
-
-- Virtual Network
+- Virtual Network (VNet)
 - Subnet
-- Network Security Group
+- Network Security Group (NSG)
 - Public IP
-- Virtual Machine
+- Network Interface (NIC)
+- Linux Virtual Machine
+- NGINX Web Server
+
+---
 
 ## 🚀 How to Run
+
 ```bash
 terraform init
 terraform plan
